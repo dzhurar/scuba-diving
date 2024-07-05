@@ -1,0 +1,15 @@
+/* 
+font-family: "Inter", sans-serif;
+font-family: "Quicksand", sans-serif;
+*/
+:root{
+    --header-background: #0C70AC;
+    --hero-background: #0C70AC;
+    --destination-background: #FFFFFF;
+    --footer-background: #001C2D;
+    --blog-background: #E6E6E6;
+    --title-color: #000000;
+    --text-color: #7C7C7C;
+    --hover-color: #F4DE1F;
+    --footer-copyright: rgba(255, 255, 255, 0.5);
+}
