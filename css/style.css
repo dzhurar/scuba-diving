@@ -2,6 +2,9 @@
 font-family: "Inter", sans-serif;
 font-family: "Quicksand", sans-serif;
 */
+*{
+    /* border: 1px solid red; */
+}
 :root{
     --header-background: #0C70AC;
     --hero-background: #0C70AC;
@@ -23,7 +26,6 @@ font-family: "Quicksand", sans-serif;
     border-bottom: 1px solid var(--section-borders);
 }
 .container{
-    border: 1px solid red;
     width: 1620px;
     margin: 0 auto;
     padding: 0 15px;
@@ -73,9 +75,10 @@ font-family: "Quicksand", sans-serif;
 /* destinations */
 .destinations{
     background-color: var(--destination-background);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .section-title{
-    margin-top: 80px;
     margin-bottom: 50px;
     text-align: center;
     color: var(--title-color);
@@ -92,7 +95,6 @@ font-family: "Quicksand", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
 }
 .destinations-card-img{
     width: 520px;
@@ -116,5 +118,34 @@ font-family: "Quicksand", sans-serif;
     font-weight: 500;
     font-size: 24px;
     text-decoration: underline;
+    color: var(--text-color);
+}
+/* blog */
+.blog{
+    background-color: var(--blog-background);
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.blog-card-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.blog-card-img{
+    width: 520px;
+    height: 342px;
+    margin-bottom: -4px;
+}
+.blog-card-wrap{
+    padding-top: 25px;
+    background-color: var(--destination-background);
+    padding-left: 40px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.blog-card-date{
+    font-weight: 600;
+    font-size: 16px;
     color: var(--text-color);
 }
